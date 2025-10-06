@@ -75,18 +75,50 @@ ex: 20 -> 2 digits , 12345 -> 5 digits 1234567 -> more that five numbers ... so 
 # print("Even Number") if number % 2 == 0 else print("Odd Number")
 
 # check the given alphabet is vowel or not ( a e i o u )
+#
+# alphabet = input("Enter alphabet: ")
+# print(alphabet)
+#
+#
+# if alphabet == "a" or alphabet == "e" or alphabet == "i" or alphabet == "o" or alphabet == "u":
+#     print(f"{alphabet} is a vowel")
+# elif alphabet == "A" or alphabet == "E" or alphabet == "I" or alphabet == "O" or alphabet == "U":
+#     print(f"{alphabet} is a vowel")
+# else:
+#     print(f"{alphabet} is not a vowel")
 
-alphabet = input("Enter alphabet: ")
-print(alphabet)
 
 
-if alphabet == "a" or alphabet == "e" or alphabet == "i" or alphabet == "o" or alphabet == "u":
-    print(f"{alphabet} is a vowel")
-elif alphabet == "A" or alphabet == "E" or alphabet == "I" or alphabet == "O" or alphabet == "U":
-    print(f"{alphabet} is a vowel")
+
+#lader conditional statements
+#find out the day of the week(take the input from the user)
+print("Enter any number between 1 and 7")
+day = int(input("Enter day: "))
+"""
+1-> sunday
+2-> monday
+3-> tuesday
+4-> wednesday
+5-> thursday
+6-> friday
+7-> saturday
+"""
+if day == 1:
+    print("Sunday")
+elif day == 2:
+    print("Monday")
+elif day == 3:
+    print("Tuesday")
+elif day == 4:
+    print("Wednesday")
+elif day == 5:
+    print("Thursday")
+elif day == 6:
+    print("Friday")
+elif day == 7:
+    print("Saturday")
 else:
-    print(f"{alphabet} is not a vowel")
-
+    print("Enter Valid Number from 1 to 7")
 
 
 
