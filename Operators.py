@@ -3,7 +3,7 @@
 operators are used to perform the mathematical operations inside the program like addition subtraction multiplication
 greaterThan lessThan ...etc.
 Operator and Operands
-Eg: a+ b here + is an operator and a , b are operands
+Eg: a + b here + is an operator and a , b are operands
 """
 
 #Types of operators
@@ -174,6 +174,43 @@ print(is_bananas_in_list)
 
 
 
+#Identity Operators
+print(fruit is fruits)#false
+print( fruit is not fruits)#true
+
+
+
+# Bitwise Operators
+res = 2 & 5 # 2 -> 0010 , 5 -> 0101  -> 0000 -> 0
+
+"""
+2 -> 0 0 1 0 
+5 -> 0 1 0 1
+a -> 0 0 0 0 -> 0 
+"""
+
+print(res) #0 AND
+print(2 | 5) #7 OR
+"""
+2 -> 0 0 1 0 
+5 -> 0 1 0 1
+a -> 0 1 1 1 -> 7
+"""
+print(2 ^ 5) #7 XOR
+"""
+2 -> 0 0 1 0 
+5 -> 0 1 0 1
+a -> 0 1 1 1 -> 7
+"""
+
+print(2 << 5) #leftShift
+"""
+ 2 ^ 5 -> 2 * 2 ^ 5 -> 64
+"""
+print(2 >> 5) #right shift
+"""
+ 2 >> 5 -> 2 / 2 ^ 5 -> 2 / 32 -> 0.0625 -> 0
+ """
 
 
 
