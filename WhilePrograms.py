@@ -8,7 +8,9 @@
 #     if(count % 2 == 0):
 #         print(count)
 #     count += 1
+
 """
+
 num = 10 
 count = 1
 count <= num -> 1 <= 10 -> true
@@ -34,11 +36,13 @@ count <= num -> 4 <= 10 -> true
 count % 2 == 0 -> 4 % 2 == 0 -> true 
 print(count) -> 4
 count += 1 -> 4 + 1 = 5
+
 .
 .
 .
 .
 .
+
 count = 10
 count <= num -> 10 <= 10 -> true
 count % 2 == 0 -> 10 % 2 == 0 -> true 
@@ -47,11 +51,6 @@ count += 1 -> 10 + 1 = 11
 
 while count <= num
         11  <= 10 -> False
-        
-
-
-
-
 
 """
 
@@ -78,15 +77,25 @@ while count <= num
 #         print(count)
 #     count += 1
 
-num = int(input("Enter the Max Number: "))
-
-count = 1
-while count <= num:
-    if( count % 2 == 0):
-        count += 1
-        continue
-    print(count)
-    count += 1
-
+# num = int(input("Enter the Max Number: "))
+#
+# count = 1
+# while count <= num:
+#     if( count % 2 == 0):
+#         count += 1
+#         continue
+#     print(count)
+#     count += 1
+#
 
 # continue is a keyword which is used skip the current iteration and move to next iteration
+
+num = int(input("Enter any Number : "))#10
+sum = 0
+i = 1
+while i <= num:
+    sum += i
+    i += 1
+print(sum)#55
+
+
