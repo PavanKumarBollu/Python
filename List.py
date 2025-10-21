@@ -140,12 +140,26 @@ nums = [55,24,17,56,85,98,174,624,75,74,6,1,45,62,58,63,87]
 # print(names_with_a)
 
 
+#
+#
+# names = ["Pavan Kumar", "Genash Kumar", "Sushmitha", "Rao", "Dheraj", "Naveen Kumar", "Kranthi", "Rishi", "Sri Kumar"]
+# names_with_a = [name for name in names if "K" in name and "u" in name]
+#
+#
+# print(names)
+# print(names_with_a)
 
 
-names = ["Pavan Kumar", "Genash Kumar", "Sushmitha", "Rao", "Dheraj", "Naveen Kumar", "Kranthi", "Rishi", "Sri Kumar"]
-names_with_a = [name for name in names if "K" in name and "u" in name]
+# nums = [10,25,14,35,68,45,124,15,47,1,21,3,4,6,78,9,46]
+#
+# for num in nums:
+#     if num % 2 == 0:
+#         print(num, end=",")# 10,14,68,124,4,6,78,46
 
 
-print(names)
-print(names_with_a)
+
+
+
+
+
 
