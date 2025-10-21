@@ -157,9 +157,10 @@ nums = [55,24,17,56,85,98,174,624,75,74,6,1,45,62,58,63,87]
 #         print(num, end=",")# 10,14,68,124,4,6,78,46
 
 
+# print(type(nums))
+# print(type(nums[1]))
 
-
-
-
+list_single_value = [1]
+print(type(list_single_value))
 
 
