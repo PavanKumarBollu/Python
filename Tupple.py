@@ -82,5 +82,12 @@ nums = (1,2,3,45,2,6,7,8,9,1,10,2)
 # tuple_sorted = tuple(sorted(nums))
 # print(tuple_sorted)
 
-print(len(nums))
-print(nums.count(2))
+# print(len(nums))
+# print(nums.count(2))
+
+
+t = (1,2,3,4,5,6,7,8,9)
+t1 = t[::-1]
+print(t1)#output in the reverse format
+
+
