@@ -70,16 +70,22 @@ print(set_b)
 #difference for getting the elements form the first set but not present in the second set
 # set_difference = set_t.difference(set_b)
 # print(set_difference)
-#
+
 
 num_1 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}
-num_2 = {12,13,15,16}
+num_2 = {1,12,13,15,16}
+
 print(num_1)
 print(num_2)
+
+
 print(num_2.issubset(num_1))#True
 print(num_1.issubset(num_2))#False
+
+
 print(num_2.issuperset(num_1))#False
 print(num_1.issuperset(num_2))#True
+
 
 
 
