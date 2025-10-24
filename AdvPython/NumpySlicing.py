@@ -68,30 +68,46 @@ sample output
 
 # arr_num = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13])
 # print(f"before  {arr_num}")
+#
 # arr_num_view = arr_num.view()
 # print(f"before view {arr_num_view}")
+#
 # arr_num_view[0] = 11
+#
 # print(f"after {arr_num}")
 # print(f"after view {arr_num_view}")
 
 
 # arr_num = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13])
 # print(f"before  {arr_num}")
+#
 # arr_num_copy = arr_num.copy()
 # print(f"before copy {arr_num_copy}")
+#
 # arr_num_copy[0] = 11
+#
 # print(f"after {arr_num}")
 # print(f"after copy {arr_num_copy}")
 
-#MultiDimensional array
-arr_multi = np.array([[1,2,3],[1,2,3],[12,13,14],[34,35,36]])
-print(arr_multi)
-print(arr_multi.shape)#this will tell the total rows and columns of the array
+# #MultiDimensional array
+# arr_multi = np.array([[1,2,3],[1,2,3],[12,13,14],[34,35,36]])
+# print(arr_multi)
+# print(arr_multi.shape)#this will tell the total rows and columns of the array
+#
+#
+# #when you use the reshape then we need to count the total number of elements in the array then
+# #accordingly we need to divide that into row and coulmns like for example if you have 24 elements in total
+# # then you need to divide that like 6 x 4 or 2 X 12 or 4 x 6 or 7 x 4 ... etc then we can reshape that with the above
+# # ways apart from this if you try to reshape that into anything else then we will get and reshape error
+# arr_reshaped = arr_multi.reshape(2,6)
+# print(arr_reshaped)
 
 
-#when you use the reshape then we need to count the total number of elements in the array then
-#accordingly we need to divide that into row and coulmns like for example if you have 24 elements in total
-# then you need to divide that like 6 x 4 or 2 X 12 or 4 x 6 or 7 x 4 ... etc then we can reshape that with the above
-# ways apart from this if you try to reshape that into anything else then we will get and reshape error
-arr_reshaped = arr_multi.reshape(2,6)
-print(arr_reshaped)
+#native libraries
+# -----------------
+
+"""
+when two programming languages want to communicate then it will use the native labraries
+
+
+"""

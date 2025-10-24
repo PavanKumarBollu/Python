@@ -211,7 +211,7 @@ import numpy as np
 # print(arr_generate)
 
 
-#generate random array between 0 - 1 0 is included and 1 is excluded
+#generate random array between 0 - 1  --> 0 is included and 1 is excluded
 
 # arr_random = np.random.rand(1,5)
 # print(arr_random)
