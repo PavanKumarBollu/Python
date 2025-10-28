@@ -22,3 +22,9 @@ something to that file ro read than write to that file ... etc
 #     print(file_contents, type(file_contents))
 
 
+
+
+obj = open("D:\\01_AF\\01_DANLC\\ANP_D1439\\Python\\AdvPython\\file.txt","w")
+if obj:
+    obj.write("Pavan")
+
