@@ -36,5 +36,4 @@ ax[0].barh(student_names,stats,color=['blue','green', "purple"])
 
 plt.show()
 
-
 #python naming conversions
