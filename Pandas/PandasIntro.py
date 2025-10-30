@@ -24,6 +24,8 @@ time series data:
 .
 etc
 
+
+
 how to install the pandas library
 ----------------------------------
 
@@ -64,8 +66,8 @@ pandas have two data structures for manipulating the data
     
     
     
-1. series 
------------
+1. series
+---------
 series is 1d array and it is one of the core ds of the python
 to make it more simple just thing like series is nothing but a single column in excel
 
@@ -86,15 +88,15 @@ other wise we will get error of ValueError: Length of values (3) does not match 
 # example
 
 # import pandas as pd
-
+#
 # marks = [50,76,56,45,34]
 # series = pd.Series(marks)
 # print(series)
 #
 # print(series[0])
-
-
-
+#
+#
+#
 # sub_names = ["maths", 'cs', 'stats',"telugu"]
 # sub_marks = [50, 45,60,46]
 #
@@ -104,3 +106,17 @@ other wise we will get error of ValueError: Length of values (3) does not match 
 # print(series)
 # print(series['maths'])
 # # print(series[50])
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
