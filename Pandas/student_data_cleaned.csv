@@ -1,0 +1,102 @@
+Std_Id,Std_Name,Age,Grade,Sub,Std_Marks,Std_City
+100,Andy Espinoza,18.0,F,Biology,3.56,WFJ
+99,Vivian Aguirre,19.0,C,History,2.98,TFB
+99,Vivian Aguirre,19.0,C,History,,TFB
+98,Frank Powell,23.0,C,History,3.24,GPT
+97,Rosie Chan,,A,Biology,3.68,HLO
+96,Brady Hubbard,18.0,B,Biology,2.51,TVV
+95,Alivia Holland,23.0,A,Biology,3.66,SDG
+94,Marley Austin,23.0,B,Computer Science,3.85,IUZ
+93,Kamila Waller,20.0,C,Biology,3.21,DIZ
+92,Dior Hudson,22.0,F,Mathematics,2.9,DIW
+91,August Pace,18.0,C,English,3.66,PIS
+90,Bowen Valentine,25.0,A,Computer Science,3.86,GHU
+89,Ellie Fuentes,25.0,C,Biology,3.89,TNV
+88,Jorge Lewis,23.0,D,English,2.57,GCP
+87,Julia Li,25.0,C,English,3.99,HRA
+86,Kingston Coleman,24.0,D,Mathematics,3.7,TPG
+85,Mariah Alexander,20.0,A,Computer Science,3.7,HXX
+84,Christian Holland,22.0,B,English,2.97,PFO
+83,Harmony Morris,21.0,D,Biology,3.58,PUN
+82,Dane Robertson,21.0,F,Mathematics,2.54,INU
+81,Freya McFarland,18.0,A,History,,LHE
+80,Zavier Salazar,19.0,F,Computer Science,3.51,YFP
+79,Egypt Bender,18.0,F,Biology,3.15,IAQ
+78,Adam Cano,,F,History,3.69,VGN
+77,Murphy Myers,20.0,B,Mathematics,3.64,KNG
+76,Dustin Leal,23.0,B,Biology,,NKO
+75,Maryam Barron,18.0,D,English,3.15,OOY
+74,Hunter Buchanan,25.0,D,History,3.04,TCJ
+73,Adelina Morgan,18.0,A,English,3.69,KCG
+72,Hugh Marsh,21.0,B,English,2.69,KJY
+71,Kalani Macdonald,19.0,B,English,2.53,TGO
+70,Anderson Simon,25.0,A,History,,DYG
+69,Maria Newman,,C,History,2.63,RNR
+68,Hunter Henderson,25.0,C,Computer Science,2.88,ISO
+67,Mary Morgan,24.0,D,English,3.37,BAM
+66,Aryan Moreno,,A,History,3.06,SKM
+65,Yara Buckley,18.0,B,History,3.08,MPC
+64,Cristian Sweeney,24.0,A,Biology,3.7,NLN
+63,Noelle Byrd,22.0,B,Mathematics,3.49,RCE
+62,River Elliott,18.0,B,Biology,3.78,ATW
+61,Remi Herrera,19.0,B,Computer Science,3.29,ZDY
+60,Mark West,20.0,F,Biology,3.38,KBX
+59,Alma George,20.0,A,History,2.51,MUF
+58,Jeremiah Cochran,23.0,A,English,3.25,NTS
+57,Averie Howard,20.0,F,Mathematics,3.61,ICW
+56,Ford Rivas,24.0,F,Mathematics,3.81,ZFT
+55,Marlee Montoya,18.0,B,English,3.42,MMK
+54,Titus Fitzgerald,19.0,A,Biology,2.62,MHT
+53,Anne Rhodes,18.0,A,Computer Science,2.67,DZW
+52,Mekhi Mathis,19.0,C,Computer Science,2.96,AJD
+51,Shiloh Kent,19.0,A,Biology,2.85,BHL
+50,Idris Goodwin,19.0,D,Mathematics,3.27,ASM
+49,Camille Noble,18.0,A,History,2.58,ENY
+48,Jett Oliver,23.0,A,Biology,2.91,DUT
+47,Reina McCoy,23.0,C,English,3.62,DHH
+46,Marlon Greer,23.0,C,English,3.27,MXN
+45,Scarlette Jarvis,22.0,C,Mathematics,3.11,DIZ
+44,Louie Hickman,19.0,B,English,2.93,WDE
+43,Aaliyah Kerr,24.0,F,Mathematics,3.52,EOM
+42,Braden Cook,25.0,D,Biology,3.63,OSL
+41,Lucy Leblanc,24.0,F,Mathematics,3.67,OBX
+40,Jacoby Carter,20.0,F,English,2.91,GIC
+39,Aspen Fry,22.0,F,History,2.57,YET
+38,Darius Hoffman,20.0,D,English,3.57,YVW
+37,Cadence Summers,22.0,A,Mathematics,3.7,MAB
+36,Nico Garrison,20.0,F,Computer Science,3.4,EXL
+35,Finley Keller,24.0,C,Computer Science,3.5,ZZV
+34,Augustine Arnold,20.0,B,History,3.93,RQL
+33,Kataleya Kaur,21.0,F,English,3.02,VXY
+32,Edison Winters,23.0,B,English,2.6,CAP
+31,Winnie Collier,20.0,A,Mathematics,3.31,FMM
+30,Jamison Bullock,18.0,C,Biology,3.13,SJY
+29,Valerie Farmer,22.0,B,English,2.67,ULM
+28,Santos Washington,22.0,A,Computer Science,3.1,ENN
+27,London Lugo,18.0,C,History,2.62,KFJ
+26,Krew Payne,23.0,D,English,3.25,QOQ
+25,Palmer Humphrey,20.0,F,English,2.79,GLD
+24,Santana Jennings,19.0,D,Biology,3.81,HNQ
+23,Nicole Stokes,24.0,F,Computer Science,3.39,FAL
+22,Jaziel Harvey,21.0,F,History,3.68,WME
+21,Mya Hoover,20.0,F,Computer Science,3.52,CIS
+20,Beau Nunez,23.0,D,Mathematics,2.78,AOZ
+19,Haley Henderson,18.0,A,History,3.75,QIS
+18,Andy Bauer,19.0,B,History,3.33,IMJ
+17,,21.0,A,History,3.62,ZYW
+16,Allen Davenport,18.0,C,Mathematics,3.25,
+15,Destiny Mullins,21.0,F,English,3.3,IGX
+14,Kye Cohen,24.0,B,Biology,3.69,IFG
+13,Elyse Ellison,25.0,A,Biology,3.57,WDM
+12,Edgar Keith,22.0,C,,3.86,IPV
+11,Rosa Salinas,20.0,A,Mathematics,3.03,MFM
+10,Dawson Meza,21.0,D,Biology,2.79,EXI
+9,Karen Dunn,25.0,C,English,3.63,GIH
+8,Apollo Weeks,22.0,B,History,2.74,OOR
+7,Madison Trujillo,19.0,,History,3.05,AQP
+6,Marshall Thompson,18.0,A,Biology,2.82,GOG
+5,Lydia Leon,21.0,D,Mathematics,3.43,AER
+4,Jones Myers,19.0,C,Mathematics,3.94,CUR
+3,Nora Krueger,18.0,B,English,3.95,EPV
+2,Louis Robinson,21.0,A,English,3.66,KQK
+1,Paula Singh,23.0,B,Biology,2.52,LUS

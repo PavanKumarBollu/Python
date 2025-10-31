@@ -42,9 +42,7 @@ student_data = p.read_csv("student_data.csv",names=col_names,header=0)
 
 # print(student_data.info())
 
-
-
-duplicate_rows = student_data.duplicated(keep="first",subset=None)
-
-print(f"Total Duplicate Records removed is {duplicate_rows.sum()}")
-print(duplicate_rows) # print on each row like weather the value is duplicated or not
+# duplicate_rows = student_data.duplicated(keep="first",subset=None)
+#
+# print(f"Total Duplicate Records removed is {duplicate_rows.sum()}")
+# print(duplicate_rows) # print on each row like weather the value is duplicated or not
