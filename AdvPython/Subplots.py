@@ -20,6 +20,7 @@ stats = [60,65,80,70,55,60,35,36,75,54,56,58]
 # create the subplot()
 
 fig, ax = plt.subplots(1,2,figsize=(10,5)) # horizontal
+# fig, ax = plt.subplots(1,3,figsize=(10,5)) # horizontal
 # fig, ax = plt.subplots(2,1,figsize=(10,5)) #vertical
 
 #when you are not mentioning any values for rows and columns in subplots() function then it will considers the default
@@ -33,6 +34,10 @@ ax[1].bar(student_names,computer_science,color=['grey','g','b'])
 # stats subject comparison
 ax[0].barh(student_names,stats,color=['blue','green', "purple"])
 
+#
+# # stats subject comparison
+# ax[2].barh(student_names,stats,color=['blue','green', "purple"])
+#
 
 plt.show()
 
